@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover the box</title>
+    <style>
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main{
+            width: 100%;
+            height: 500px;
+            border: 1px solid green;
+            background-color: antiquewhite;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid rgb(129, 127, 127);
+            margin: auto;
+            background-color: aquamarine;
+        }
+        #box-3:hover{
+            background-color: rgb(59, 59, 21);
+            color: white;
+            width: 200px;
+            height: 200px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <main class="flex">
+        <div class="box flex">box1</div>
+        <div class="box flex">box2</div>
+        <div id="box-3" class="box flex">box3</div>
+        <div class="box flex">box4</div>
+        <div class="box flex">box5</div>
+    </main>
+</body>
+</html>
